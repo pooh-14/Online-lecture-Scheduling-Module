@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Jost,Signika Negative,Overpass,system-ui;
+  }
+
+  #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width:100%; */
+    /* border: 1px solid black; */
+    height:65px;
+    background:#fff;
+    box-shadow: 0 0 0.75rem 0 #7e7e7e;
+    padding: 0px 50px ;
+
+  }
+
+  #nav>div:nth-child(1)>img{
+width: 46%;
+  }
+
+  #nav>div:nth-child(2){
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+  }

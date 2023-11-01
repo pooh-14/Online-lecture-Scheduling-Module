@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Jost,Signika Negative,Overpass,system-ui;
+  }
+  
+#logbody{
+    width: 100%;
+    height: 720px;
+    border: 1px solid #c2bfc0;
+    background: url(https://html.vristo.sbthemes.com/assets/images/auth/coming-soon-object1.png) left  no-repeat, 
+    url(https://html.vristo.sbthemes.com/assets/images/auth/polygon-object.svg) bottom no-repeat, 
+    url(https://html.vristo.sbthemes.com/assets/images/auth/coming-soon-object3.png) top right no-repeat, 
+    url(https://html.vristo.sbthemes.com/assets/images/auth/coming-soon-object2.png) top no-repeat, 
+    url(https://html.vristo.sbthemes.com/assets/images/auth/bg-gradient.png) no-repeat center fixed, 
+    url(https://as1.ftcdn.net/v2/jpg/02/30/40/58/1000_F_230405851_YxmdDUZRb5vENl87excEUtw0jU4RQoto.jpg) repeat center ;
+    background-size: 20%, 30%, 50%, 15%,150%,38%;
+}
+
+#logbody>div:nth-child(1){
+    width: 52%;
+    height: 87%;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 3.3%;
+    background-color: rgba(254, 254, 254, 0.814);
+    box-shadow: 0 0 0.75rem 0 #7e7e7e;
+    border-radius: 10px;
+}
+
+#logform{
+    width: 60%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#logform>p:nth-child(1){
+    color: #4361ee;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#logform>label{
+    color: #494949;
+}
+
+
+#logform>input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    border:1px solid #b0b1b2;
+    margin-bottom: 8px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+#logform>button{
+    width: 100%;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 13px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    background: linear-gradient(135deg, rgba(239, 18, 98, 1) 0%, rgba(67, 97, 238, 1) 100%);
+}
+
+#logform>button:hover{
+    background: linear-gradient(135deg, rgba(67, 97, 238, 1) 0%, rgba(239, 18, 98, 1) 100%);
+}
+
