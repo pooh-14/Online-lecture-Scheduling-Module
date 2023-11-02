@@ -18,16 +18,7 @@ const userSchema = new Schema({
     enum: ["Admin", "Instructor", "Student"],
     default: "Admin",
   }
-  // cart: {
-  //   type: [String],
-  // },
-  // wishlist: {
-  //   type: [String],
-  // },
-  // isBlocked: {
-  //   type: Boolean,
-  //   default: false,
-  // },
+  
 });
 
 export default mongoose.model("User", userSchema);

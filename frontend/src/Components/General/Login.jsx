@@ -72,6 +72,7 @@ const Login = () => {
             onClick={() => router("/register")}
           >Don't have an account? <u style={{color:"rgb(9, 83, 179)"}}>SIGN UP</u>
           </p>
+          <i style={{marginTop:"45%",marginLeft:"45%",color:"grey"}} onClick={() => router("/")} class="fa-regular fa-circle-xmark fa-xl"></i>
       </form>
       </div>
     </div>

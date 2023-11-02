@@ -128,6 +128,31 @@ export const getCurrentUser = async (req, res) => {
 };
 
 
+export const getAllInstructors = async (req, res) => {
+  try {
+      const { token } = req.body;
+
+      const decodedData = jwt.verify(token, process.env.JWT_SECRET)
+
+      if (!decodedData) {
+          return res.status(404).json({ status: "error", message: "Token not valid." })
+      }
+
+      // const userId = decodedData.userId;
+
+      const instructors = await UserModal.find({ role: "Instructor" })
+
+      if (instructors?.length) {
+          return res.status(200).json({ status: "success", user:instructors })
+      }
+
+      return res.status(404).json({ status: "error", message: "No users found." })
+
+  } catch (error) {
+      return res.status(500).json({ status: "error", error: error.message })
+  }
+}
+
 
 
 

@@ -101,11 +101,12 @@ const Register = () => {
               />
               <br />
               <button>SIGN UP</button>
-              <p style={{marginTop:"9%", fontSize:"14px",marginLeft:"28%"}}
+              <p style={{marginTop:"7%", fontSize:"14px",marginLeft:"28%"}}
                 onClick={() => router("/login")}
               >
                 Already have an account? <u style={{color:"rgb(9, 83, 179)"}}>SIGN IN</u>
               </p>
+              <i style={{marginTop:"7%",marginLeft:"45%",color:"grey"}} onClick={() => router("/")} class="fa-regular fa-circle-xmark fa-xl"></i>
           </form>
           </div>
         </div>
