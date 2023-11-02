@@ -3,7 +3,7 @@ import axios from "axios";
 const token = JSON.parse(localStorage.getItem("token"));
 
 const api = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://admin-instructor-panel-rha5.onrender.com",
   headers: { Authorization: `Bearer ${token}` }
 });
 
